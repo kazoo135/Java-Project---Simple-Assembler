@@ -1,0 +1,10 @@
+n			DL
+one			DC		1
+
+			INP n
+try_again	LDA n
+			INP n
+			SUB n
+			SUB one
+			JMI try_again
+			OUT n

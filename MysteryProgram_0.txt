@@ -1,0 +1,10 @@
+x			DL		initializes one to value 1
+one			DC	1		sets aside a location in memory
+
+
+more		INP		x
+			LDA		one
+			ADD		x
+			STA		x
+			OUT		x
+			JMP		more

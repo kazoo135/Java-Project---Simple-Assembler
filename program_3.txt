@@ -1,0 +1,13 @@
+x			DL	initializes to zero
+y 			DL
+one			DC	1 sets aside a location in memory
+
+more		INP		x
+			INP		y
+			LDA		one
+			ADD		x
+			ADD 	y
+			STA		x
+			OUT		x
+			JMP		more
+			

@@ -1,6 +1,5 @@
 # Git ignore file for the Java Project Simple Assembler
 *.zip
-*.txt
 .classpath
 .project
 .settings
